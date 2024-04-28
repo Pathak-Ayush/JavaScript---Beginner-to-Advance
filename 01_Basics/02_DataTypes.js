@@ -14,13 +14,14 @@ let age = 18
 let isLoggedIn = false
 let state;
 
-// number => 2 to power 53
+//*PRIMITIVE DATA TYPES
+// number => 2 to the power 53
 // bigint
 // string => ""
 // boolean => true/false
-// null => standalone value
-// undefined => 
-// symbol => unique
+// null => standalone value mean no value can be assigned
+// undefined => means variable is declared, but no value is assigned. 
+// symbol => to find uniqueness
 
 
 // object
