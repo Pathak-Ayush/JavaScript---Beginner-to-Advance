@@ -58,6 +58,11 @@ console.log(typeof (score))
 // console.log("1" + 2 + 2);
 // console.log(1 + 2 + "2");
 
+
+// let b = "1" + 3
+// console.log(b)
+// console.log(typeof (b))
+
 // console.log( (3 + 4) * 5 % 3);
 
 // console.log(+true);
