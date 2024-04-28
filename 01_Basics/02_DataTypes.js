@@ -14,7 +14,7 @@ let age = 18
 let isLoggedIn = false
 let state;
 
-//*PRIMITIVE DATA TYPES
+//*PRIMITIVE DATA TYPES are of 7 types
 // number => 2 to the power 53
 // bigint
 // string => ""
@@ -23,8 +23,30 @@ let state;
 // undefined => means variable is declared, but no value is assigned. 
 // symbol => to find uniqueness
 
+const id = Symbol('213')
+const anotherID = Symbol('213')
 
-// object
+console.log(id === anotherID);
+
+//* Reference type (Non primitive)
+//Arrays, Objects, Functions
+
+//! Arrays
+const Rajya = ["Maharashtra", "Gujarat", "Delhi"];
+
+//! Objects
+let myObject = {
+    name: Gopal,
+    age: 21,
+    isLoggedIn: true,
+}
+
+//! Functions
+
+const thisFunction = function()
+{
+    console.log("meep!");
+}
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
